@@ -15,6 +15,7 @@ public class ModItems {
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
+
     public static final RegistryObject<Item> SwordForAkim = ITEMS.register("swordakim",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AkimkaForYou)));
 }
