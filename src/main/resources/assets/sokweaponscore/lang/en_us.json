@@ -1,5 +1,10 @@
 {
   "item.sokweaponscore.swordakim": "Akim sword",
+  "item.sokweaponscore.akim_orge": "Akim Orge",
+  "item.sokweaponscore.akim_main": "Akim",
+  "item.sokweaponscore.supershorty": "Supershorty",
+  "item.sokweaponscore.glock": "Glock",
   "itemGroup.newmodeitem": "Sok mod",
-  "block.sokweaponscore.akimka_shit": "Akim love shits"
+  "block.sokweaponscore.akimka_shit": "Akim love shits",
+  "block.sokweaponscore.akimka_block": "Akim block th"
 }

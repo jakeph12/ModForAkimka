@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "***",
+    "#*#"
+  ],
+  "key": {
+    "#": {
+      "item": "sokweaponscore:akim_orge"
+    },
+    "*":{
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item":"sokweaponscore:akim_main"
+  }
+}

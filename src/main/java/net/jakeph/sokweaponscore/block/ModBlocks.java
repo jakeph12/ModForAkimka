@@ -35,9 +35,13 @@ public class ModBlocks {
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
     }
 
+
     public static final RegistryObject<Block> AkimkaShit = registryBlock("akimka_shit", () ->
             new Block(BlockBehaviour.Properties.of(Material.DIRT)
-                    .strength(6f)
-                    .requiresCorrectToolForDrops()), ModCreativeModeTab.AkimkaForYou);
+                    .strength(6f)), ModCreativeModeTab.AkimkaForYou);
 
+    public static final RegistryObject<Block> AkimBlock = registryBlock("akimka_block",() -> new Block(
+            BlockBehaviour.Properties.of(Material.STONE).strength(6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.AkimkaForYou);
 }
