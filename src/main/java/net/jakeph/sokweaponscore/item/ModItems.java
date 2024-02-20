@@ -3,6 +3,7 @@ package net.jakeph.sokweaponscore.item;
 import net.jakeph.sokweaponscore.SokWeaponCore;
 import net.jakeph.sokweaponscore.item.custom.Bullet;
 import net.jakeph.sokweaponscore.item.custom.Pistol;
+import net.jakeph.sokweaponscore.item.custom.Shotgun;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -29,5 +30,5 @@ public class ModItems {
             () -> new Pistol(Tiers.IRON,10,100,new Item.Properties().tab(ModCreativeModeTab.AkimkaForYou).stacksTo(1)));
 
     public static final RegistryObject<Item> Supershorty = ITEMS.register("supershorty",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AkimkaForYou).stacksTo(1)));
+            () -> new Shotgun(new Item.Properties().tab(ModCreativeModeTab.AkimkaForYou).stacksTo(1)));
 }

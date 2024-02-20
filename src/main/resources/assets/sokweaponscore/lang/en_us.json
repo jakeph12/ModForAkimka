@@ -6,5 +6,9 @@
   "item.sokweaponscore.glock": "Glock",
   "itemGroup.newmodeitem": "Sok mod",
   "block.sokweaponscore.akimka_shit": "Akim love shits",
-  "block.sokweaponscore.akimka_block": "Akim block th"
+  "block.sokweaponscore.akimka_block": "Akim block th",
+  "key.category.sokweaponscore.mod": "Sok weapon",
+  "key.category.sokweaponscore.fire": "Fire weapon",
+  "key.category.sokweaponscore.die": "Kill yourself",
+  "death.attack.younoob": "You noob"
 }

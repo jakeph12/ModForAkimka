@@ -3,6 +3,7 @@ package net.jakeph.sokweaponscore;
 import com.mojang.logging.LogUtils;
 import net.jakeph.sokweaponscore.block.ModBlocks;
 import net.jakeph.sokweaponscore.item.ModItems;
+import net.jakeph.sokweaponscore.networking.ModMessage;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -34,6 +35,7 @@ public class SokWeaponCore
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
+        ModMessage.register();
 
     }
 
